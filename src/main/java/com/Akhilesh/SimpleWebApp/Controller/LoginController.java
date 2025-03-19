@@ -11,4 +11,9 @@ public class LoginController {
     static String login(){
         return " login page..";
     }
+
+    @RequestMapping("/logout")
+    static String logout(){
+        return " logout page..";
+    }
 }
